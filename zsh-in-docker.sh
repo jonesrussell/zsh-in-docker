@@ -129,3 +129,8 @@ if [ "$THEME" = "powerlevel10k/powerlevel10k" ]; then
     git clone https://github.com/romkatv/powerlevel10k $HOME/.oh-my-zsh/custom/themes/powerlevel10k
     powerline10k_config >> $HOME/.zshrc
 fi
+
+if [ "$THEME" = "palenight" ]; then
+    wget -O ~/.oh-my-zsh/custom/themes/palenight.zsh-theme \
+    https://raw.githubusercontent.com/jonesrussell/palenight.zsh-theme/master/palenight.zsh-theme
+fi
